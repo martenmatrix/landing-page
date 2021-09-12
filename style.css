@@ -211,6 +211,13 @@ section.call-to-action button {
     border: solid 3px var(--light-white);
     padding: 0.25rem 1rem;
     border-radius: 10px;
+
+    transition: color 200ms, background-color 200ms;
+}
+
+section.call-to-action button:hover {
+    color: var(--light-blue);
+    background: var(--light-white);
 }
 
 footer {
